@@ -1,6 +1,8 @@
 ---
 layout: default
 title: 思考世界的第一步
+parent: Mathjax
+mathjax: true
 nav_order: 2
 ---
 
