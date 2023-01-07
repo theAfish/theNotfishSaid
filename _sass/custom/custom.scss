@@ -1,4 +1,7 @@
-::selection {
-  color: $white;
-  background: $blue-200;
+
+@media base {
+  ::selection {
+    color: $white;
+    background: $blue-200;
+  }
 }
