@@ -1,25 +1,24 @@
 
-@media base {
-  ::selection {
-    color: $white;
-    background: $blue-200;
-  }
-  
-  a {
-    color: $blue-200;
-    text-decoration: none;
-  }
+::selection {
+  color: $white;
+  background: $blue-200;
+}
 
-  a:not([class]) {
-    text-decoration: underline;
-    text-decoration-color: $border-color;
-    text-underline-offset: 2px;
+a {
+  color: $blue-200;
+  text-decoration: none;
+}
 
-    &:hover {
-      text-decoration-color: rgba($blue-200, 0.45);
-    }
+a:not([class]) {
+  text-decoration: underline;
+  text-decoration-color: $border-color;
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: rgba($blue-200, 0.45);
   }
 }
+
 
 @media layout {
   .site-title {
