@@ -4,13 +4,18 @@
   background: $blue-200;
 }
 
+a {
+  color: $blue-200;
+  text-decoration: none;
+}
+
 a:not([class]) {
   text-decoration: underline;
   text-decoration-color: $border-color;
   text-underline-offset: 2px;
 
   &:hover {
-    text-decoration-color: rgba($blue-200, 0.45);
+    text-decoration-color: rgba($blue-100, 0.45);
   }
 }
 
