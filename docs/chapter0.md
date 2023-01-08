@@ -13,11 +13,6 @@ nav_order: 2
 当我们要思考这个世界的时候，到底要如何思考？
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## 参量
 
