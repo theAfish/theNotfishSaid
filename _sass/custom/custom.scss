@@ -4,6 +4,16 @@
   background: $blue-200;
 }
 
+a:not([class]) {
+  text-decoration: underline;
+  text-decoration-color: $border-color;
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: rgba($blue-200, 0.45);
+  }
+}
+
 body {
   font-family: $body-font-family;
   font-size: inherit;
