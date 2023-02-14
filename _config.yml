@@ -12,3 +12,7 @@ compress_html:
 mathjax:
  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
  config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
+
+url: "https://theafish.github.io/theNotfishSaid/" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
