@@ -15,4 +15,4 @@ mathjax:
 
 url: "https://theafish.github.io/theNotfishSaid/" # the base hostname & protocol for your site
 plugins:
-  - jekyll-sitemap
+  - jekyll-seo-tag
