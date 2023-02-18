@@ -14,5 +14,5 @@ mathjax:
  config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
 
 url: "https://theafish.github.io/theNotfishSaid/" # the base hostname & protocol for your site
-# plugins:
-#   - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
